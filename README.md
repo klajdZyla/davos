@@ -17,7 +17,7 @@ Supported boards (out of the box)
 
 1. Initialize submodules
 ```
-$ git clone git@github.com:fpgasystems/davos.git
+$ git clone https://github.com/klajdZyla/davos.git
 $ git submodule update --init --recursive
 ```
 
@@ -29,7 +29,7 @@ $ cd build
 
 3. Configure build
 ```
-$ cmake .. -DDEVICE_NAME=vcu118 -DTCP_STACK_EN=1 -DVIVADO_ROOT_DIR=/opt/Xilinx/Vivado/2019.1/bin -DVIVADO_HLS_ROOT_DIR=/opt/Xilinx/Vivado/2019.1/bin
+$ cmake .. -DDEVICE_NAME=vc709 -DROCE_STACK_EN=1 -DVIVADO_ROOT_DIR=/nfs/tools/xilinx/Vivado/2019.1/bin -DVIVADO_HLS_ROOT_DIR=/nfs/tools/xilinx/Vivado/2019.1/bin
 
 ```
 All options:
